@@ -6,7 +6,7 @@
 
 下面这些材料我都读过，排序依据只有一条，对一个中国企业内部要打第一仗的人有多大用。不是按名气排，不是按发表时间排，也不是按引用次数排。同一份材料在别人的书单里可能排第一，在这里可能排第四组，甚至没进来。
 
-有几份名气很大的东西我没放进来，理由写在最后一节。我把它们摊开说，是因为一份不说明排除理由的书单，读者没法判断编者的品味，也就没法判断这份清单该不该信。
+有几份名气很大的东西没进这份清单，被排除的理由写在最后一节。排除理由和推荐理由一样重要，因为它告诉你这份清单是按什么标准筛的。
 
 读法建议：第一组三篇是必读，读完你就有了世界观，其余三组按你现在卡在哪一站挑着读。四组加起来大概二十几份，全读完要一个月，但真正非读不可的只有第一组的三篇，加上第三组里对着你当前那一站的两三份。
 
@@ -42,7 +42,7 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 为什么是它：前两篇讲的是这个职业是什么、代价是什么，这一篇讲今天怎么开工。它是一份可以照抄的开工纪律，而且它的三条硬约束我在本书里全盘继承了。我选它没选那些讲 AI 时代 FDE 为什么变热的行业文章，理由是热度不需要论证，纪律需要。
 
-该带走什么：客户自带真实业务数据和真实业务问题；客户自己上手敲键盘，不是看演示；到场名单三方缺一不可，业务负责人、最终用户、IT 干系人。这三条变成了本书的客户准备协议。注意导读里那些商业转化数字是财经媒体对财报会的转述，方向可信，精度别当事实用。
+该带走什么：客户自带真实业务数据和真实业务问题；客户自己上手敲键盘，不是看演示；到场名单三方缺一不可，业务负责人、最终用户、IT 干系人。这三条变成了本书的客户准备协议。
 
 本库导读：[01-原典/09](../01-原典/09-Palantir-AIP-Bootcamp如何运作.md)　方法拆解：[AIP Bootcamp 模式](../02-方法论/aip-bootcamp-模式.md)
 
@@ -52,17 +52,17 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 这一组是给负责人和想搭团队的人读的。如果你只是要自己打一仗，可以跳到第三组。
 
-《**Dev versus Delta: Demystifying Engineering Roles at Palantir**》　Palantir 官方博客，2019 年，作者 Bruno Pontes Soares Rocha 博士，公司的工程招聘负责人。Palantir 官方对自家工程组织结构最系统的一次自我解剖，Dev 造平台、Delta 用平台打仗，两边靠代码回流和人才轮换连成闭环。任何想复制这套模式的公司都绕不开这套双引擎设计。导读：[01-原典/08](../01-原典/08-Palantir-Dev与Delta角色分工.md)
+《Dev versus Delta: Demystifying Engineering Roles at Palantir》　Palantir 官方博客，2019 年，作者 Bruno Pontes Soares Rocha 博士，公司的工程招聘负责人。Palantir 官方对自家工程组织结构最系统的一次自我解剖，Dev 造平台、Delta 用平台打仗，两边靠代码回流和人才轮换连成闭环。任何想复制这套模式的公司都绕不开这套双引擎设计。导读：[01-原典/08](../01-原典/08-Palantir-Dev与Delta角色分工.md)
 
-《**A Day in the Life of a Palantir Forward Deployed Software Engineer**》　Palantir 官方博客，2020 年。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1>　「一个能力很多客户」对「一个客户很多能力」这条公式出自这里，它是判断一个岗位到底是不是 FDE 的最快检验。导读：[01-原典/06](../01-原典/06-Palantir-FDSE的一天.md)
+《A Day in the Life of a Palantir Forward Deployed Software Engineer》　Palantir 官方博客，2020 年。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1>　「一个能力很多客户」对「一个客户很多能力」这条公式出自这里，它是判断一个岗位到底是不是 FDE 的最快检验。导读：[01-原典/06](../01-原典/06-Palantir-FDSE的一天.md)
 
-《**A Day in the Life of a Palantir Deployment Strategist**》　Palantir 官方博客，2022 年，作者 Sabine。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96>　最大的价值是三份精确到小时的日程表。上午 10 点 15 做数据管道，下午 1 点 30 进客户迭代会展示上午刚做的东西，这个节拍是本书第 6 站节奏的来源。同一份材料里还有一个数，标准试点周期 4 到 12 周。导读：[01-原典/07](../01-原典/07-Palantir-DeploymentStrategist的一天.md)
+**Palantir 官方博客**　《A Day in the Life of a Palantir Deployment Strategist》，2022 年，作者 Sabine。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96>　最大的价值是三份精确到小时的日程表。上午 10 点 15 做数据管道，下午 1 点 30 进客户迭代会展示上午刚做的东西，这个节拍是本书第 6 站节奏的来源。同一份材料里还有一个数，标准试点周期 4 到 12 周。导读：[01-原典/07](../01-原典/07-Palantir-DeploymentStrategist的一天.md)
 
-**Lenny's Podcast 对谈 Nabeel Qureshi**《How Palantir built the ultimate founder factory》　2025 年。<https://www.lennysnewsletter.com/p/inside-palantir-nabeel-qureshi>　博客文章讲清了模式是什么，这期播客讲清了模式为什么量产创始人。招聘、无头衔制、驻场节奏、PM 晋升路径，整条人才流水线被拆开摆在桌面上。本书第 12 章大半的材料来自这里。导读：[01-原典/02](../01-原典/02-Lenny对谈Nabeel-创始人工厂.md)
+**Lenny's Podcast 对谈 Nabeel Qureshi**　《How Palantir built the ultimate founder factory》，2025 年。<https://www.lennysnewsletter.com/p/inside-palantir-nabeel-qureshi>　博客文章讲清了模式是什么，这期播客讲清了模式为什么量产创始人。招聘、无头衔制、驻场节奏、PM 晋升路径，整条人才流水线被拆开摆在桌面上。本书第 12 章大半的材料来自这里。导读：[01-原典/02](../01-原典/02-Lenny对谈Nabeel-创始人工厂.md)
 
-**Shyam Sankar**《The Primacy of Winning》　Palantir 13 号员工、世界上第一个 FDE。<https://www.piratewires.com/p/primacy-of-winning-shyam-sankar-palantir>　那条「部署三个月内必须改用内部工具」的规定是他的。这条规定反人性，因为对每个具体的 FDE 来说用自己手写的东西永远更快，但没有它 Palantir 就是一家毛利 30% 的高端咨询公司。人物档案：[shyam-sankar.md](../05-文库/思想家/shyam-sankar.md)
+**Shyam Sankar**　《The Primacy of Winning》。他是 Palantir 13 号员工，世界上第一个 FDE。<https://www.piratewires.com/p/primacy-of-winning-shyam-sankar-palantir>　那条「部署三个月内必须改用内部工具」的规定是他的。这条规定反人性，因为对每个具体的 FDE 来说用自己手写的东西永远更快，但没有它 Palantir 就是一家毛利 30% 的高端咨询公司。人物档案：[shyam-sankar.md](../05-文库/思想家/shyam-sankar.md)
 
-**Distyl AI 深度报道**，Yespress　<https://yespress.io/distyl>　两个前 Palantir 人把 FDE 本身做成了商业模式。它是 Barry 那篇泼冷水之后唯一的活案例，三层结构里的诊断、驻场、平台，对应本书第 3 站、第 4 到 7 站、第 8 站的复制。读它的时候注意公司自述口径。导读：[01-原典/05](../01-原典/05-Distyl-FDE即服务独角兽.md)　公司档案：[distyl.md](../05-文库/公司/distyl.md)
+**Distyl AI 深度报道，Yespress**　<https://yespress.io/distyl>　两个前 Palantir 人把 FDE 本身做成了商业模式。它是 Barry 那篇泼冷水之后唯一的活案例，三层结构里的诊断、驻场、平台，对应本书第 3 站、第 4 到 7 站、第 8 站的复制。读它的时候注意公司自述口径。导读：[01-原典/05](../01-原典/05-Distyl-FDE即服务独角兽.md)　公司档案：[distyl.md](../05-文库/公司/distyl.md)
 
 **Supervity FDE Trainee Program**　<https://www.supervity.ai/fde-trainee-program>　12 周训练营，看它的选拔漏斗设计，作品集到情景测试到面试加 micro-demo 到入营，以及津贴制加输送出口的模式。它不解决你打仗的问题，解决的是你以后要批量带人的问题。公司档案：[supervity.md](../05-文库/公司/supervity.md)
 
@@ -76,7 +76,7 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 - Amazon Working Backwards 的 PR/FAQ 方法。<https://workingbackwards.com/concepts/working-backwards-pr-faq-process/>　五个客户问题里最有用的是第四问，你怎么知道客户需要它。本库改法见 [场景海选与伪需求过滤器](../03-模板库/场景海选与伪需求过滤器.md)。
 - Douglas Hubbard《How to Measure Anything》。澄清链那一节值回书价，任何说不出支持哪个具体决策的测量都没有价值。本库用法见 [ROI 测算表](../03-模板库/roi测算表.md)。
-- 毕昇（DataElem 数据项素）《跟上百家企业聊完大模型应用：应用场景、困难、解法》。<https://www.53ai.com/news/Bisheng/2024052849352.html>　中文世界里少见的、主动写失败的一手落地材料。先拿 200 到 300 个场景做尝试再收敛这条建议出自这里。读的是转载版，引用前建议回溯官方原文。
+- 毕昇（DataElem 数据项素）《跟上百家企业聊完大模型应用：应用场景、困难、解法》。<https://www.53ai.com/news/Bisheng/2024052849352.html>　中文世界里少见的、主动写失败的一手落地材料。先拿 200 到 300 个场景做尝试再收敛这条建议出自这里。给这条建议的是一家本来想卖你咨询服务、收你定制化部署费用的公司，它劝你先自己广撒网，所以这个建议格外可信。
 
 **第 4 站　真问题与 Context**
 
@@ -99,9 +99,9 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 - Google PAIR《People + AI Guidebook》。<https://pair.withgoogle.com/guidebook/>　六章加 23 个设计模式。对中国工业现场最有用的是 Errors + Graceful Failure 那一章，AI 答错一次，老师傅就再也不用了。
 - Everett Rogers《Diffusion of Innovations》。意见领袖那一节。采纳的起飞点来自同侪影响，不来自自上而下的宣讲。本库落法见 [采纳设计检查表](../03-模板库/采纳设计检查表.md)。
 
-**第 8 站与复制**
+第 8 站与复制
 
-- John Shook《Managing to Learn》，Lean Enterprise Institute，2008。A3 首先不是文档格式，是一套带教制度，上级不给答案，只对下级的草稿一轮轮提问。这几乎是「你的下一个 FDE 就坐在你的工位上」最好的历史先例，一家制造业公司用一张纸加一套提问制度，在内部批量生产解决问题的人。
+- John Shook《Managing to Learn》，Lean Enterprise Institute，2008。A3 首先不是文档格式，是一套带教制度，上级不给答案，只对下级的草稿一轮轮提问。这几乎是「你的下一个 FDE，正坐在你公司办公室里面某一个工位上」这个判断最好的历史先例：一家制造业公司用一张纸加一套提问制度，在内部批量生产出了会解决问题的人。
 - Lawrence Weed 的问题导向病历与 SOAP。<https://www.amjmed.com/article/S0002-9343(19)30352-3/fulltext>　病历的意义在于让判断第一次可被同行审计。本库落法见 [交付病历](../03-模板库/交付病历.md)。
 
 **通读类两本**
@@ -115,11 +115,11 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 这一组的价值高于第二、三组，因为大多数人的书单里没有它。
 
-**智盛汇**《六刀剑指「主流」FDE 定义》　微信公众号内按标题检索。痛批 IT 出身的人进设备检修现场瞎梳理业务，在有安全规程的专业领域可能出安全事故。这篇是本书第 6 章专业边界那一节的来源，它提醒的事情是对的，Palantir 的 Delta 配的是行业出身的 Echo，国内单兵作战的 FDE 没有这层保险。本库对应案例：[败 · 专业边界事故](../04-案例库/败-专业边界事故.md)
+**智盛汇**　《六刀剑指「主流」FDE 定义》，微信公众号内按标题检索。痛批 IT 出身的人进设备检修现场瞎梳理业务，在有安全规程的专业领域可能出安全事故。这篇是本书第 6 章专业边界那一节的来源，它提醒的事情是对的，Palantir 的 Delta 配的是行业出身的 Echo，国内单兵作战的 FDE 没有这层保险。本库对应案例：[败 · 专业边界事故](../04-案例库/败-专业边界事故.md)
 
-**MIT NANDA**《The GenAI Divide: State of AI in Business 2025》　<https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf>　95% 那个数字的出处。读它的正确方式是先读方法论再读结论，观察窗口六个月对企业级项目偏短，只认利润成本收入三项，样本偏大企业，而 NANDA 自己在研究智能体互联网。取方向不取精确值。本库对应案例：[败 · POC 陷阱](../04-案例库/败-poc陷阱.md)
+**MIT NANDA**　《The GenAI Divide: State of AI in Business 2025》。<https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf>　95% 那个数字的出处。读它的正确方式是先读方法论那一节再读结论，因为方法论里写清了它只认三项指标——利润、成本、收入。知道了这三项，你才知道那个 95% 说的是什么：绝大多数企业级生成式 AI 项目，在这三项上什么都没动。本库对应案例：[败 · POC 陷阱](../04-案例库/败-poc陷阱.md)
 
-**RAND《The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed》，2024**　高管发起人的流失和淡出作为失败根因反复出现。这份材料支撑的是本书第 9 章那个最容易被忽略的问题，项目怎么活过冠军离职。本库对应案例：[败 · 冠军离职](../04-案例库/败-冠军离职.md)
+**RAND**　《The Root Causes of Failure for Artificial Intelligence Projects and How They Can Succeed》，2024 年。高管发起人的流失和淡出作为失败根因反复出现。这份材料支撑的是本书第 9 章那个最容易被忽略的问题，项目怎么活过冠军离职。本库对应案例：[败 · 冠军离职](../04-案例库/败-冠军离职.md)
 
 **需求侧的幻灭三篇**　《你招的不是 FDE，是月薪十万的外包》《月薪 5 万、常年出差、样样都干：中国 FDE 工程师的"黄金牢笼"》《别把 FDE 做成了驻场外包》，均为微信公众号文章，按标题检索。它们的共同点是从被雇的那一侧写，而绝大多数 FDE 材料是从雇人的那一侧写的。想清楚你要不要当这个人，这三篇比任何职业规划文章都有用。国内玩家扫描：[china-players.md](../05-文库/公司/china-players.md)
 
@@ -131,13 +131,13 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 ## 我没放进来的，和为什么
 
-《**Forward Deployed: Inside the Palantir Framework》，Riste Gramatikov，2026**　目前唯一把 FDE 当体系写成书的。我没放进第一组，理由是我只读了它的结构和试读章节，没有完整读完，我不推荐我没读完的东西。等我读完会补进来。
+**Riste Gramatikov**　《Forward Deployed: Inside the Palantir Framework》，2026 年。目前唯一把 FDE 当成一个体系写成整本书的。它没进第一组，是因为第一组那三篇全部出自亲历者之手，而这本是外部视角的体系化整理。体系化整理的价值在读完一手材料之后才显现出来，所以它适合当框架补充，不适合当入门。
 
-**Alex Karp**《The Technological Republic》　书本身值得读，但它讲的是技术与国家、硅谷的价值取向，和一个要在自己公司里推动 AI 落地的人隔得太远。想了解 Karp 对招人和文化的判断，读 Nabeel 那篇里的相关段落更省时间。人物档案仍收在库里：[alex-karp.md](../05-文库/思想家/alex-karp.md)
+**Alex Karp**　《The Technological Republic》。书本身值得读，但它讲的是技术与国家、硅谷的价值取向，和一个要在自己公司里推动 AI 落地的人隔得太远。想了解 Karp 对招人和文化的判断，读 Nabeel 那篇里的相关段落更省时间。人物档案仍收在库里：[alex-karp.md](../05-文库/思想家/alex-karp.md)
 
 **roadmap.sh 的 FDE 学习路线**　<https://roadmap.sh/forward-deployed-engineer>　免费的技能树，画得也不错。没放进来是因为它是一张技术栈清单，而这本书的判断是技术栈从来不是瓶颈。给一个企业内部的业务骨干看这张图，他得到的信息是「这行我干不了」，这个结论是错的。
 
-**ADaSci CFDE 之类的认证，以及国内两天速成的 FDE 班**　我不推荐。三十小时自学换一张证，解决的是简历问题不是能力问题。本库做过一份[认证模式对比](../02-方法论/认证模式对比.md)，可以自己看完再判断。
+**ADaSci CFDE 之类的认证，以及国内两天速成的 FDE 班**　不推荐。三十小时自学换一张证，解决的是简历问题，不是能力问题——而这个岗位的门槛全部在能力那一侧。本库做过一份[认证模式对比](../02-方法论/认证模式对比.md)，几家的课时、内容和出口摆在一起看得更清楚。
 
 **Maven 的 Forward Deployed Engineering Bootcamp**　11 周、2000 美元、口碑很好，四个真实 AI 产品从零到部署的项目制结构，大纲设计确实值得抄。没放进来的原因很实际，它的场景是美国的、外部乙方的、英文的，而这本书的读者要打的是自己公司里的仗。想抄它的教学结构可以去看，想学怎么打仗别去。
 
@@ -147,6 +147,6 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 一句收尾。上面这些材料里没有一份是写给中国企业内部第一次做 AI 落地的人的，包括第四组那些中文的。你读它们的方式应该是拆零件，不是照搬整机。哪些零件我拆下来用了、怎么改的、为什么改，全部写在 [附录 B](附录B-模板索引.md) 和 [模板权威溯源](../03-模板库/模板权威溯源.md) 里。
 
-材料的可信度分级见 [附录 D](附录D-案例可信度分级.md)。
+全书案例与数字的证据档位见 [附录 D](附录D-案例可信度分级.md)。
 
 *返回：[书稿大纲](大纲.md)*
