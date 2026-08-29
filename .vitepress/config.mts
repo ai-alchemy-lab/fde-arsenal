@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { withMermaid } from 'vitepress-plugin-mermaid'
 import { generateSidebar, sectionEntryLink } from './sidebar.mts'
 
 // ===========================================================================
@@ -16,7 +17,7 @@ const SITE_TAGLINE = '任鑫的企业内部 FDE 培养手册'
 // GitHub 仓库地址（编辑链接、右上角图标都用它）
 const REPO = 'https://github.com/ai-alchemy-lab/fde-arsenal'
 
-export default defineConfig({
+export default withMermaid(defineConfig({
   // ---- 基础信息 -----------------------------------------------------------
   lang: 'zh-CN',
   title: SITE_NAME,
@@ -165,4 +166,4 @@ export default defineConfig({
       copyright: `© ${new Date().getFullYear()} 任鑫 · ${SITE_NAME}`
     }
   }
-})
+}))
