@@ -52,11 +52,11 @@ Palantir 官方博客，2023 年 10 月。<https://blog.palantir.com/deploying-f
 
 这一组是给负责人和想搭团队的人读的。如果你只是要自己打一仗，可以跳到第三组。
 
-《**Dev versus Delta: Demystifying Engineering Roles at Palantir》**　Palantir 官方博客，2019 年，作者 Bruno Pontes Soares Rocha 博士，公司的工程招聘负责人。Palantir 官方对自家工程组织结构最系统的一次自我解剖，Dev 造平台、Delta 用平台打仗，两边靠代码回流和人才轮换连成闭环。任何想复制这套模式的公司都绕不开这套双引擎设计。导读：[01-原典/08](../01-原典/08-Palantir-Dev与Delta角色分工.md)
+《**Dev versus Delta: Demystifying Engineering Roles at Palantir**》　Palantir 官方博客，2019 年，作者 Bruno Pontes Soares Rocha 博士，公司的工程招聘负责人。Palantir 官方对自家工程组织结构最系统的一次自我解剖，Dev 造平台、Delta 用平台打仗，两边靠代码回流和人才轮换连成闭环。任何想复制这套模式的公司都绕不开这套双引擎设计。导读：[01-原典/08](../01-原典/08-Palantir-Dev与Delta角色分工.md)
 
-《**A Day in the Life of a Palantir Forward Deployed Software Engineer》**　Palantir 官方博客，2020 年。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1>　「一个能力很多客户」对「一个客户很多能力」这条公式出自这里，它是判断一个岗位到底是不是 FDE 的最快检验。导读：[01-原典/06](../01-原典/06-Palantir-FDSE的一天.md)
+《**A Day in the Life of a Palantir Forward Deployed Software Engineer**》　Palantir 官方博客，2020 年。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-forward-deployed-software-engineer-45ef2de257b1>　「一个能力很多客户」对「一个客户很多能力」这条公式出自这里，它是判断一个岗位到底是不是 FDE 的最快检验。导读：[01-原典/06](../01-原典/06-Palantir-FDSE的一天.md)
 
-《**A Day in the Life of a Palantir Deployment Strategist》**　Palantir 官方博客，2022 年，作者 Sabine。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96>　最大的价值是三份精确到小时的日程表。上午 10 点 15 做数据管道，下午 1 点 30 进客户迭代会展示上午刚做的东西，这个节拍是本书第 6 站节奏的来源。同一份材料里还有一个数，标准试点周期 4 到 12 周。导读：[01-原典/07](../01-原典/07-Palantir-DeploymentStrategist的一天.md)
+《**A Day in the Life of a Palantir Deployment Strategist**》　Palantir 官方博客，2022 年，作者 Sabine。<https://blog.palantir.com/a-day-in-the-life-of-a-palantir-deployment-strategist-951cb59a5a96>　最大的价值是三份精确到小时的日程表。上午 10 点 15 做数据管道，下午 1 点 30 进客户迭代会展示上午刚做的东西，这个节拍是本书第 6 站节奏的来源。同一份材料里还有一个数，标准试点周期 4 到 12 周。导读：[01-原典/07](../01-原典/07-Palantir-DeploymentStrategist的一天.md)
 
 **Lenny's Podcast 对谈 Nabeel Qureshi**《How Palantir built the ultimate founder factory》　2025 年。<https://www.lennysnewsletter.com/p/inside-palantir-nabeel-qureshi>　博客文章讲清了模式是什么，这期播客讲清了模式为什么量产创始人。招聘、无头衔制、驻场节奏、PM 晋升路径，整条人才流水线被拆开摆在桌面上。本书第 12 章大半的材料来自这里。导读：[01-原典/02](../01-原典/02-Lenny对谈Nabeel-创始人工厂.md)
 
