@@ -1,0 +1,16 @@
+{
+  "name": "fde-arsenal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "中国 FDE 手册 —— 企业内部 FDE 培养手册（VitePress 文档站）",
+  "license": "CC-BY-4.0",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev .",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview ."
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3"
+  }
+}

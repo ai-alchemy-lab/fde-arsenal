@@ -1,0 +1,9 @@
+# 依赖
+node_modules/
+
+# VitePress 构建产物与缓存
+.vitepress/dist/
+.vitepress/cache/
+
+# 系统垃圾文件
+.DS_Store

@@ -1,0 +1,87 @@
+# =============================================================================
+# 自动部署：push 到 main 分支后，自动构建 VitePress 站点并发布到 GitHub Pages
+# =============================================================================
+#
+# 【如果你打算用 Vercel 部署（国内访问更友好，推荐）】
+#
+#   这个文件可以完全不用，也可以留着不管它。在 Vercel 里直接连接本仓库，填三项：
+#
+#     Framework Preset  →  VitePress（或选 Other）
+#     Build Command     →  npm run docs:build
+#     Output Directory  →  .vitepress/dist
+#     Install Command   →  npm install（默认即可）
+#
+#   然后在 Vercel 项目的 Domains 里绑一个自己的域名。为什么推荐这么做，
+#   以及和 GitHub Pages 的取舍，见 .vitepress/部署说明.md。
+#
+#   注意：如果两边都开着，GitHub Pages 和 Vercel 会各自跑一份构建，
+#   内容一样，只是浪费一点构建时间，不会互相打架。
+#
+# 【如果你用 GitHub Pages】
+#
+#   需要先去仓库的 Settings → Pages → Build and deployment → Source
+#   选成 "GitHub Actions"，这个工作流才会生效。
+#
+# =============================================================================
+
+name: 部署文档站
+
+on:
+  push:
+    branches: [main]
+  # 允许在 Actions 页面手动点按钮触发一次
+  workflow_dispatch:
+
+# 授予 GITHUB_TOKEN 发布到 Pages 的权限
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 同一时间只跑一个部署；新的推送不打断正在进行的部署
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: 构建
+    runs-on: ubuntu-latest
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v4
+        with:
+          # 拉全部提交历史，页面底部的"最后更新于"要靠它算
+          fetch-depth: 0
+
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 安装依赖
+        run: npm ci || npm install
+
+      - name: 构建站点
+        run: npm run docs:build
+
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .vitepress/dist
+
+  deploy:
+    name: 发布
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 发布到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
