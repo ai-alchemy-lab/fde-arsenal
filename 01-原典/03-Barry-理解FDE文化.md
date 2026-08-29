@@ -11,7 +11,7 @@
 
 ## 一、FDE 的灵魂：生于田野（Born in the Field）
 
-Barry 认为 FDE（Forward Deployed Engineer，前线部署工程师）模式的核心不是"把工程师派到客户那儿"这个动作，而是一种文化立场：**对前线团队的极端授权（radical deference）**。前线工程师不只是解决客户问题，必要时可以直接发明一个全新的产品。
+Barry 认为 FDE（Forward Deployed Engineer，前线部署工程师）模式的核心不是"把工程师派到客户那儿"这个动作，而是一种文化立场：**对前线团队的极端授权**（radical deference）。前线工程师不只是解决客户问题，必要时可以直接发明一个全新的产品。
 
 最好的例子是 Palantir 的 Foundry 平台。它不是总部某个 PM 规划出来的，而是从苏黎世、休斯顿、圣保罗、图卢兹、巴库等一堆客户现场的部署项目里"长"出来的——各地 FDE 各自造轮子，最后收敛成一个平台。2014 年 Palantir 内部大会（叫 Hobbitcon，员工自称 Hobbits）上，公司对产品战略的官方表述就是"strong opinions, weakly held"（观点鲜明但随时可推翻）。这种自下而上的路线最终撑起了几十亿美元的收入，Barry 写作时 Palantir 股价已超过 146 美元。
 
